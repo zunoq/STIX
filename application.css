@@ -1,0 +1,187 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 300;
+  background-color: #0a1929;
+  color: #fff;
+}
+
+h1 {
+  font-weight: 300;
+  background-color: #001e3c;
+  margin: 0;
+  padding: 20px;
+  color: #00b1ff;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+h1 img {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 25px;
+  right: 25px;
+  border: 0;
+}
+.chart {
+  background-color: #fff;
+}
+#uploader,
+#canvas-container {
+}
+.title {
+  color: #00b1ff;
+}
+svg {
+  border: solid 1px black;
+}
+
+#uploader {
+  text-align: center;
+  line-height: 1;
+  font-size: 36px;
+}
+
+#uploader a {
+  font-size: 20px;
+}
+
+#chosen-files {
+  margin-left: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+#canvas-wrapper {
+  float: left;
+}
+
+.sidebar {
+  right: 25px;
+  width: 350px;
+  float: right;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+#legend {
+  margin-top: 25px;
+  background-color: #0a1929;
+}
+
+#selected {
+  margin-top: 25px;
+  background-color: #0a1929;
+  cursor: pointer;
+}
+
+#selection > div {
+  padding: 0.5em 0 0.5em 2%;
+}
+
+#selection > .odd {
+  background-color: #0a1929;
+}
+
+#selection > div > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#selection > div > .type {
+  width: 30%;
+  font-weight: bold;
+}
+
+#selection > div > .value {
+  width: 65%;
+  word-wrap: break-word;
+}
+
+#paste-area-stix-json {
+  height: 25em;
+  width: 40em;
+  background-color: #001e3c;
+  color: #fff;
+}
+
+#paste-area-custom-config {
+  height: 25em;
+  width: 40em;
+}
+#paste-parser {
+  width: 90px;
+  height: 40px;
+  background-color: #ed407a;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 20px;
+}
+h2 {
+  font-weight: 200;
+}
+
+line,
+.link {
+  stroke-width: 5;
+  stroke: #aaa;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 5px 0px;
+  margin: 0;
+}
+
+ul li div {
+  width: 37px;
+  height: 37px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ul > li > p {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+.dimmed {
+  opacity: 0.9;
+}
+
+.pinned {
+  stroke: black;
+  stroke-width: 5;
+}
+
+.linkish:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+/*.selected {
+  >>> This style is in the header of the index.html file for comptibility reasons! <<<
+  filter: url("#drop-shadow");
+}*/
